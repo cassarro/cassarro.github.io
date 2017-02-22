@@ -5,10 +5,11 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
      <link rel="icon" type="image/png" href="images/favicon.ico">
    
-    <title>Roderick Cassar -  </title>
+    <title>Roderick Cassar - This post demonstrates post content styles</title>
     <meta name="description" content="Welcome to my personal blog covering mainly Software Engineering topics. I’ve become a big fan of agile approaches and the resulting focus on evolutionary software design. ">
     <meta name="keywords" content="software engineering, agile approach, lean management, igaming software, ecommerce software">
     <meta name="author" content="Roderick Cassar">
@@ -19,43 +20,45 @@
     
     <!-- Template CSS Files
     ================================================== -->
-    <!-- Twitter Bootstrs CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/bootstrap.min.css">
     <!-- Ionicons Fonts Css -->
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/ionicons.min.css">
     <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/animate.css">
     <!-- Hero area slider css-->
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/slider.css">
     <!-- owl craousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/owl.carousel.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/owl.theme.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/jquery.fancybox.css">
     <!-- template main css file -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/main.css">
     <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/responsive.css">
     
     <!-- Template Javascript Files
-    ================================================== -->
+    ================================================== 
+    -->
+
     <!-- modernizr js -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- jquery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- owl carouserl js -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/owl.carousel.min.js"></script>
     <!-- bootstrap js -->
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/bootstrap.min.js"></script>
     <!-- wow js -->
-    <script src="js/wow.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/wow.min.js"></script>
     <!-- slider js -->
-    <script src="js/slider.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
+    <script src="http://www.roderickcassar.com/js/slider.js"></script>
+    <script src="http://www.roderickcassar.com/js/jquery.fancybox.js"></script>
     <!-- template main js -->
-    <script src="js/main.js"></script>
+    <script src="http://www.roderickcassar.com/js/main.js"></script>
     <!-- captcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
    
     <body>
@@ -100,19 +103,31 @@ Header Section Start
     </div>
 </header>
 
-        <div class="post">
-  <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
-    <div class="container">
+        <section class="global-page-header">
+  <div class="container">
       <div class="row">
-        <div>
-          <div class="block">
-            <h1>This post demonstrates post content styles</h1>
-            <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold">Bart Simpson</span> on <span class="bold">May 20, 2016</span></p>
-            </div>
-            <hr />
-            <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
+          <div class="col-md-12">
+              <div class="block">
+                  <h2>This post demonstrates post content styles</h2>
+                  <div class="portfolio-meta">
+                      <span>May 20, 2016</span>|
+                      <span> By <span class="bold">Bart Simpson</span>
+                      <span> Tags: <a href="">business</a>,<a href="">people</a></span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </section><!--/#Page header-->
+  <section class="single-post">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post-img">
+                    <img class="img-responsive" alt="" src="images/blog/post-1.jpg">
+                </div>
+                <div class="post-content">
+                  <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
 
 <h2 id="some-great-heading-h2">Some great heading (h2)</h2>
 
@@ -196,14 +211,16 @@ Header Section Start
 
 <p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
 </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div><!-- .col-md-7 close -->
+        </div>
       </div>
-    </div>
   </section>
-</div>
+</section>
 <p class="center-text" style="padding: 30px;">
-  <a href="/airspace-jekyll/blog">Back to blog</a>
+  <a href="http://www.roderickcassar.com/blog">Back to blog</a>
 </p>
 
 

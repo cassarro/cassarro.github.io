@@ -5,10 +5,11 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
      <link rel="icon" type="image/png" href="images/favicon.ico">
    
-    <title>Roderick Cassar -  </title>
+    <title>Roderick Cassar - Welcome to jekyll!</title>
     <meta name="description" content="Welcome to my personal blog covering mainly Software Engineering topics. I’ve become a big fan of agile approaches and the resulting focus on evolutionary software design. ">
     <meta name="keywords" content="software engineering, agile approach, lean management, igaming software, ecommerce software">
     <meta name="author" content="Roderick Cassar">
@@ -19,43 +20,45 @@
     
     <!-- Template CSS Files
     ================================================== -->
-    <!-- Twitter Bootstrs CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/bootstrap.min.css">
     <!-- Ionicons Fonts Css -->
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/ionicons.min.css">
     <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/animate.css">
     <!-- Hero area slider css-->
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/slider.css">
     <!-- owl craousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/owl.carousel.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/owl.theme.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/jquery.fancybox.css">
     <!-- template main css file -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/main.css">
     <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="http://www.roderickcassar.com/css/responsive.css">
     
     <!-- Template Javascript Files
-    ================================================== -->
+    ================================================== 
+    -->
+
     <!-- modernizr js -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- jquery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- owl carouserl js -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/owl.carousel.min.js"></script>
     <!-- bootstrap js -->
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/bootstrap.min.js"></script>
     <!-- wow js -->
-    <script src="js/wow.min.js"></script>
+    <script src="http://www.roderickcassar.com/js/wow.min.js"></script>
     <!-- slider js -->
-    <script src="js/slider.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
+    <script src="http://www.roderickcassar.com/js/slider.js"></script>
+    <script src="http://www.roderickcassar.com/js/jquery.fancybox.js"></script>
     <!-- template main js -->
-    <script src="js/main.js"></script>
+    <script src="http://www.roderickcassar.com/js/main.js"></script>
     <!-- captcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
    
     <body>
@@ -100,19 +103,31 @@ Header Section Start
     </div>
 </header>
 
-        <div class="post">
-  <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
-    <div class="container">
+        <section class="global-page-header">
+  <div class="container">
       <div class="row">
-        <div>
-          <div class="block">
-            <h1>Welcome to jekyll!</h1>
-            <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold">jekyll</span> on <span class="bold">May 20, 2016</span></p>
-            </div>
-            <hr />
-            <p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+          <div class="col-md-12">
+              <div class="block">
+                  <h2>Welcome to jekyll!</h2>
+                  <div class="portfolio-meta">
+                      <span>May 20, 2016</span>|
+                      <span> By <span class="bold">jekyll</span>
+                      <span> Tags: <a href="">business</a>,<a href="">people</a></span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </section><!--/#Page header-->
+  <section class="single-post">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post-img">
+                    <img class="img-responsive" alt="" src="images/blog/post-1.jpg">
+                </div>
+                <div class="post-content">
+                  <p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -127,14 +142,16 @@ Header Section Start
 <p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
 </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div><!-- .col-md-7 close -->
+        </div>
       </div>
-    </div>
   </section>
-</div>
+</section>
 <p class="center-text" style="padding: 30px;">
-  <a href="/airspace-jekyll/blog">Back to blog</a>
+  <a href="http://www.roderickcassar.com/blog">Back to blog</a>
 </p>
 
 
