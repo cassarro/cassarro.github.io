@@ -10,16 +10,16 @@
             </div>
         </div>
         <div class="row">
-            {% for employement in site.data.employements %}
+            {% for employment in site.data.employements %}
             <div class="col-lg-4 col-md-6">
                 <div class="team-box text-center">
                     <div class="team-image">
-                        <img src="{{employement.image}}" alt="{{employement.designation}}">
+                        <img src="{{employment.image}}" alt="{{employment.designation}}">
                     </div>
-                    <p class="m-0 small pt-1 pb-2">{{employement.company}}</p>
-                    <h5 class="m-0">{{employement.designation}}</h5>
-                    <p class="mb-5">{{employement.description}} </p>
-                    <span><strong>{{employement.tenure}}</strong></span>
+                    <p class="m-0 small pt-1 pb-2">{{employment.Company}}</p>
+                    <h5 class="m-0">{{employment.Designation}}</h5>
+                    <p class="mb-5">{{employment.Description}} </p>
+                    <span><strong>{{employment.Tenure}}</strong></span>
                 </div>
             </div>
             {% endfor %}
