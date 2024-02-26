@@ -8,21 +8,13 @@
 ####################################################
 
 # Site settings
-title: "Resume - Jekyll Premim Theme"
+title: "Roderick Cassar"
 email: "themeix@gmail.com"
 logo: /assets/images/logo/logo-light.png
 footer_logo: /assets/images/logo/logo-light.png
-description: "Resume is a responsive Jekyll template for your business website"
-keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
-mailclimp: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'
-dribble: https://dribble.com/themeix
-facebook: https://facebook.com/themeix
-instagram: https://instagram.com/themeix
-youtube: https://youtube.com/themeix
-twitter: https://twitter.com/themeix_com
-linkedin: https://linkedin.com/themeix
-pinterest: https://pinterest.com/themeix
-
+description: "A digital way to know a bit about me and be able to connect"
+keywords: "roderick cassar, head of product development, betsson, tipico, raketech, igaming, cto, cpo, product growth, agile leadership, technology, software development"
+url: 'https://www.roderickcassar.com'
 
 # Build settings
 markdown: kramdown
