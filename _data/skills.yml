@@ -1,35 +1,35 @@
-- name: HTML
-  icon: /assets/images/icons/001-web-browser.png
-  
-- name: CSS
-  icon: /assets/images/icons/002-css.png
+- name: Technical Proficiency
+  icon: /assets/images/icons/001-software-engineering.png
 
-- name: JavaScript
-  icon: /assets/images/icons/003-js-format.png
+- name: Strategic Leadership
+  icon: /assets/images/icons/002-leadership.png
 
-- name: Photo Editing
-  icon: /assets/images/icons/005-photo-editing.png
+- name: Product Development
+  icon: /assets/images/icons/003-product.png
 
-- name: Cliping Path
-  icon: /assets/images/icons/004-photo-size.png
+- name: Agile and Adaptive
+  icon: /assets/images/icons/004-agile.png
 
-- name: Ecommerce
+- name: Innovative and Creative
+  icon: /assets/images/icons/005-innovation.png
+
+- name: E-commerce experience
   icon: /assets/images/icons/006-ecommerce.png
 
-- name: Reading
-  icon: /assets/images/icons/007-book.png
+- name: IGaming experience
+  icon: /assets/images/icons/007-igaming.png
 
-- name: Cycleing
-  icon: /assets/images/icons/008-bicycle.png
+- name: Results Driven & Revenue Growth
+  icon: /assets/images/icons/008-results.png
 
-- name: Painting
-  icon: /assets/images/icons/009-paint-roller.png
+- name: User-Centric Design
+  icon: /assets/images/icons/009-design.png
 
-- name: Walking
-  icon: /assets/images/icons/010-footprint.png
+- name: Team Player & Management
+  icon: /assets/images/icons/010-team.png
 
-- name: Traveling 
-  icon: /assets/images/icons/011-travel.png
+- name: Data-Driven Decision Making & Problem-Solving 
+  icon: /assets/images/icons/011-data-driven.png
 
-- name: Playing
-  icon: /assets/images/icons/001-web-browser.png
+- name: Financial Acumen
+  icon: /assets/images/icons/012-financial-acumen.png
