@@ -3,7 +3,7 @@
   description: Assist companies in defining and refining their product (web and mobile native apps) strategy to align with business objectives. Offer insights into market trends, competitive landscapes, and potential opportunities for innovation.
 
 - name: Team Leadership and Development
-  icon: fa-people-group
+  icon: fa-code
   description: Provide leadership training and guidance to product development and engineering teams. Implement strategies to enhance team collaboration, productivity, and innovation.
 
 - name: Innovation Workshops
@@ -15,7 +15,7 @@
   description: Conduct technical architecture reviews to ensure scalability, security, and efficiency of software systems. Offer recommendations for optimising technical infrastructures.
 
 - name: Data-Driven Decision Making
-  icon: fa-file-chart-column
+  icon: fa-chart-simple
   description: Implement data analytics frameworks to inform product decisions and measure performance. Advise on key performance indicators (KPIs) and metrics relevant to product success.
 
 - name: Agile Transformation
