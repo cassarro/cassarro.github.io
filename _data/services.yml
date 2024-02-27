@@ -15,7 +15,7 @@
   description: Conduct technical architecture reviews to ensure scalability, security, and efficiency of software systems. Offer recommendations for optimising technical infrastructures.
 
 - name: Data-Driven Decision Making
-  icon: fa-chart-simple
+  icon: fa-analytics
   description: Implement data analytics frameworks to inform product decisions and measure performance. Advise on key performance indicators (KPIs) and metrics relevant to product success.
 
 - name: Agile Transformation
