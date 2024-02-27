@@ -603,24 +603,6 @@ pre {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
-.desk{
-}
-.mobile{
-}
-@media screen and (max-width : 1920px){
-  .div-only-mobile{
-  visibility:hidden;
-  }
-}
-@media screen and (max-width : 906px){
- .desk{
-  visibility:hidden;
-  }
- .mobile{
-  visibility:visible;
-  }
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
