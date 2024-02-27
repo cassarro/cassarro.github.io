@@ -1,11 +1,5 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
-
-Project:  Resume - HTML Site Template
-Version:  1.0
-Created:  23/11/20
-Author Name:  themeix
-Primary use:  portfolio template
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -608,6 +602,24 @@ pre {
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
+
+.desk{
+}
+.div-only-mobile{
+}
+@media screen and (max-width : 1920px){
+  .div-only-mobile{
+  visibility:hidden;
+  }
+}
+@media screen and (max-width : 906px){
+ .desk{
+  visibility:hidden;
+  }
+ .div-only-mobile{
+  visibility:visible;
+  }
+}
 
 .row {
   display: flex;
