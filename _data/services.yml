@@ -1,23 +1,29 @@
-- name: Web Development
+- name: Product Strategy Consulting
   icon: fa-desktop
-  description: Doctor sentences from and several or title was of and it entire of most tones such me.
+  description: Assist companies in defining and refining their product (web and mobile native apps) strategy to align with business objectives. Offer insights into market 
+  trends, competitive landscapes, and potential opportunities for innovation.
 
-- name: App Development
+- name: Team Leadership and Development
   icon: fa-apple
-  description: Visuals the his on appointed all o'clock the be pile they turner ensure question all proper
+  description: Provide leadership training and guidance to product development and engineering teams. Implement strategies to enhance team collaboration, productivity, and 
+  innovation.
 
-- name: Photo Editing
+- name: Innovation Workshops
   icon: fa-camera
-  description: Felt principles, impact been city at the a and had evening. The to so dishonourable go supplies
+  description: Conduct workshops to stimulate and capture innovative ideas within the organization. Facilitate sessions focused on fostering a culture of creativity and 
+  continuous improvement.
 
-- name: SEO Service
+- name: Technical Architecture Review
   icon: fa-compass
-  description: A to which took mountains, for and gleaning certainly behind he cut in my it concept would.
+  description: Conduct technical architecture reviews to ensure scalability, security, and efficiency of software systems. Offer recommendations for optimising technical 
+  infrastructures.
 
-- name: Administration
+- name: Data-Driven Decision Making
   icon: fa-cog
-  description: Nearby eyes to by cost. Early frequency of eventually. Magicians stupid was that searched with as.
+  description: Implement data analytics frameworks to inform product decisions and measure performance. Advise on key performance indicators (KPIs) and metrics relevant 
+  to product success.
 
-- name: Time Management
+- name: Agile Transformation
   icon: fa-clock
-  description: Characters of have a in from he on become the instead attend; For perhaps with the.
+  description: Assist companies in adopting agile methodologies for more efficient and adaptive product development. Facilitate agile training sessions and guide teams 
+  through the agile transformation process.
