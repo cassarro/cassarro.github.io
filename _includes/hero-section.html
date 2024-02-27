@@ -1,4 +1,4 @@
-<!--====== Banner Area Strar ======-->
+<!--====== Banner Area Start ======-->
 <section class="banner-area" id="home">
     <div class="banner-item" style="background-image:url({{'/assets/images/header/01.jpg' | relative_url}})">
         <div class="bg-overlay"></div>
@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="banner-content-center">
-                        <div class="banner-content desk">
+                        <div class="banner-content desk" style="@media screen and (max-width : 1920px){.mobile{visibility:hidden;}}">
                             <h1 class="display-4 text-success mb-4" data-aos="fade-down" data-aos-delay="30"
                                 data-aos-duration="1500">Hi, I'm Roderick Cassar</h1>
                             <p class="mb-5 text-light">Highly accomplished and seasoned professional with over a decade of dedicated experience in the iGaming industry. 
@@ -23,7 +23,7 @@
                             </div>
                         </div>
 
-                        <div class="banner-content mobile">
+                        <div class="banner-content mobile" style="@media screen and (max-width : 906px){.desk{visibility:hidden;}.mobile{visibility:visible;}}">
                             <h1 class="display-4 text-success mb-4" data-aos="fade-down" data-aos-delay="30"
                                 data-aos-duration="1500">Hi, I'm Roderick Cassar</h1>
                             <p class="mb-5 text-light">With over a decade of experience in the iGaming industry, I am a visionary leader in Product Development, 
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <!--====== Mouse Strart ======-->
+            <!--====== Mouse Start ======-->
             <a href="#about">
                 <div class="banner-bottom-icon">
                     <div class="mouse"></div>
