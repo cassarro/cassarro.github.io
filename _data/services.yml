@@ -1,6 +1,6 @@
 - name: Product Strategy Consulting
   icon: fa-desktop
-  description: Assist companies in defining and refining their product (web and mobile native apps) strategy to align with business objectives. Offer insights into market trends, competitive landscapes, and potential opportunities for innovation.
+  description: Assist companies in defining and refining their product strategy to align with business objectives. Offer insights into market trends, competitive landscapes, and potential opportunities.
 
 - name: Team Leadership and Development
   icon: fa-code
@@ -8,7 +8,7 @@
 
 - name: Innovation Workshops
   icon: fa-lightbulb
-  description: Conduct workshops to stimulate and capture innovative ideas within the organization. Facilitate sessions focused on fostering a culture of creativity and continuous improvement.
+  description: Conduct workshops to stimulate and capture innovative ideas within the organisation. Facilitate brain storming sessions focused on fostering a culture of creativity and continuous improvement.
 
 - name: Technical Architecture Review
   icon: fa-compass
@@ -16,8 +16,7 @@
 
 - name: Data-Driven Decision Making
   icon: fa-chart-line
-  description: Implement data analytics frameworks to inform product decisions and measure performance. Advise on key performance indicators (KPIs) and metrics relevant to product success.
-
+  description: Consult on data analytics frameworks to support product decisions and measure performance. Advise on KPIs and metrics relevant to product success.
 - name: Agile Transformation
   icon: fa-clock
   description: Assist companies in adopting agile methodologies for more efficient and adaptive product development. Facilitate agile training sessions and guide teams through the agile transformation process.
