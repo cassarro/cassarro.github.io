@@ -19,9 +19,7 @@ post_id: 1
 
 <h6><a href="#" class="text-primary">Building Momentum: The Cadence of Success</a></h6>
 <blockquote>
-  <p> There are many variations of passages of Lorem
-    Ipsum available, but the majority have suffered alteration in some form, by injected
-    humour, or randomised words which don't look even slightly believable. "</p>
+  <p><i> "Victory belongs to the most persevering."</i> - Napoleon Bonaparte</p>
 </blockquote>
 
 <p>A vibrant team culture sets the tone for how the team operates, collaborates, and overcomes obstacles. It becomes a cadence – a rhythmic and powerful force that, once ignited, is challenging to stop. The Spartan ethos becomes the heartbeat, driving the team forward with an energy that transforms setbacks into opportunities and obstacles into milestones.</p>
