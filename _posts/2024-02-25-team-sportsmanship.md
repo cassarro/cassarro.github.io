@@ -5,7 +5,7 @@ date: 2024-02-25 07:17:14 +0200
 tags: [leadership, team, culture]
 categories: [leadership]
 author_name: "Roderick Cassar"
-post_image: "/assets/images/blog/sportsmanship .png"
+post_image: "/assets/images/blog/sportsmanship.png"
 post_id: 3
 ---
 
