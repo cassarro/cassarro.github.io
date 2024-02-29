@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unleashing the Spartan Spirit: Forging a Resilient Team Culture"
-date: 2024-02-01 20:37:13 +0600
+date: 2024-02-01 20:37:13 +0200
 tags: [leadership, team, culture]
 categories: [leadership]
 author_name: "Roderick Cassar"
@@ -9,6 +9,7 @@ post_image: "/assets/images/blog/spartan.png"
 post_id: 1
 ---
 
+<h6><a href="#" class="text-primary">Unleashing the Spartan Spirit: Forging a Resilient Team Culture</a></h6>
 <p>In the dynamic realm of product development, where challenges are as inevitable as innovation, the heartbeat of success resonates within the culture of the team. Crafting a vibrant and positive team culture is not merely a choice; it's a strategic imperative that fuels motivation, inspires perseverance, and propels the team towards milestones that redefine the industry. At the core of this ethos lies the spirit of Spartans – an embodiment of resilience, tenacity, and an unwavering commitment to victory.</p>
 
 <h6><a href="#" class="text-primary">The Spartan Metaphor: A Symbol of Unyielding Perseverance</a></h6>
