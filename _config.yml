@@ -10,12 +10,10 @@ url: 'https://www.roderickcassar.com'
 # Build settings
 markdown: kramdown
 theme: minima
-remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-  - jekyll-remote-theme
 
 google_analytics: UA-92262747-1
 
