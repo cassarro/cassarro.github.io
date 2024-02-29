@@ -20,7 +20,7 @@ post_id: 2
 
 <h6><a href="#" class="text-primary">Endurance and Adaptability: Navigating the Agile Landscape</a></h6>
 <blockquote>
-  <p> </p>
+  <p>"Great teamwork is the only way we create the breakthroughs that define our careers." - Pat Riley</p>
 </blockquote>
 
 <p>Sprints in Agile are not short bursts of activity but rather a journey that requires endurance. Just as athletes push their physical and mental limits, Agile teams navigate through the intricacies of development, adapting to changes and overcoming obstacles. The commitment to the sprint serves as the team's North Star, guiding them through uncertainties and providing the endurance needed to withstand challenges.</p>
