@@ -6,7 +6,7 @@ tags: [leadership, team, culture]
 categories: [leadership]
 author_name: "Roderick Cassar"
 post_image: "/assets/images/blog/commitment.png"
-post_id: 1
+post_id: 2
 ---
 
 <h6><a href="#" class="text-primary">The Significance of Sprint Commitment in Agile</a></h6>
