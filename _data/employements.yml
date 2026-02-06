@@ -1,8 +1,26 @@
+- image: /assets/images/companies/entain.png
+  Company: Entain Group
+  Designation: Head of Product Development – Global Casino Integrations
+  Description: Leading the Global Casino Integrations product and delivery teams, responsible for onboarding and integrating gaming suppliers across all regulated markets. Driving platform scalability, automation of game certification and testing, supplier performance optimisation, and seamless aggregation architecture. Collaborating with commercial, compliance and technology stakeholders to accelerate supplier integrations, reduce operational friction and enhance casino content performance across multiple brands worldwide.
+  Tenure: Dec 2024 - Present
+
+- image: /assets/images/companies/consultancy.png
+  Company: Independent Consultancy
+  Designation: Product & Technology Consultant
+  Description: Provided strategic product and technology advisory services to organisations in digital, gaming and eCommerce sectors. Supported executive teams in defining product vision, optimising team structures, accelerating time-to-market, and improving performance metrics. Led transformation initiatives focused on agile delivery, automation and scalable platform architecture.
+  Tenure: May 2024 - Dec 2024
+
+- image: /assets/images/companies/betssongroup.png
+  Company: Betsson Group
+  Designation: Head of Product Development (Mobile Apps)
+  Description: Owned the mobile apps product vision, strategy and execution across multiple brands and markets. Reduced time-to-market by 60%, increased revenue contribution by 40%, scaled the team by 30%, and led the delivery of the first unified ONE app platform. Built a strong product culture balancing innovation, operational excellence and commercial impact.
+  Tenure: June 2022 - April 2024
+
 - image: /assets/images/companies/betssongroup.png
   Company: Betsson Group
   Designation: Head of Product Development (Mobile Apps)
   Description: Responsible for setting the Mobile Apps product vision, mission and yearly goals for the area, ensuring continuous collaboration, balancing innovation with external demands, and fostering a lean, agile mindset. Acheived a reduction of 60% in TTM, an increase of 40% in revenue, scaled team by 30% and delivered the first ONE (single) app.
-  Tenure: June 2022 - present
+  Tenure: June 2022 - April 2024
   
 - image: /assets/images/companies/raketech.png
   Company: Raketech
