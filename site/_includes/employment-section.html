@@ -1,0 +1,32 @@
+<!--====== Experience Area Start ======-->
+<section class="team-area pt-10" id="experience">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="section-title text-center mb-2">
+                    <h2 class="mb-5">Experience</h2>
+                    <p>From eCommerce architecture at KPMG to product and engineering leadership in iGaming — now leading casino integrations at Entain.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for employment in site.data.employements %}
+            <div class="col-lg-6 col-md-6">
+                <div class="team-box text-center{% if employment.current %} current-role{% endif %}">
+                    <div class="team-image">
+                        <img src="{{employment.image}}" width="180" height="72" loading="lazy" alt="{{employment.Company}} logo">
+                    </div>
+                    {% if employment.current %}
+                    <span class="role-badge">Current role</span>
+                    {% endif %}
+                    <p class="m-0 small pt-1 pb-2"><strong>{{employment.Company}}</strong></p>
+                    <h3 class="m-0">{{employment.Designation}}</h3>
+                    <p class="mb-5">{{employment.Description}}</p>
+                    <span><i>{{employment.Tenure}}</i></span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!--====== Experience Area End ======-->

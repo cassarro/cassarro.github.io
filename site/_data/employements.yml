@@ -1,0 +1,36 @@
+- image: /assets/images/companies/entain.png
+  Company: Entain
+  Designation: Casino Integrations — Product & Technology
+  Description: Leading the Global Casino Integrations product and delivery teams at Entain. Responsible for onboarding and integrating gaming suppliers across regulated markets, driving platform scalability, automating game certification and testing, and improving supplier performance. Working with commercial, compliance and technology teams to reduce friction and get casino content live across brands worldwide.
+  Tenure: Dec 2024 – Present
+  current: true
+
+- image: /assets/images/companies/consultancy.png
+  Company: Independent Consultancy
+  Designation: Product & Technology Consultant
+  Description: Advised digital, gaming and eCommerce organisations on product vision, team design, time-to-market and platform architecture. Led transformation work around agile delivery, automation and scalable operating models.
+  Tenure: May 2024 – Dec 2024
+
+- image: /assets/images/companies/betssongroup.png
+  Company: Betsson Group
+  Designation: Head of Product Development (Mobile Apps)
+  Description: Owned mobile-app product vision, strategy and execution across multiple brands and markets. Reduced time-to-market by 60%, increased revenue contribution by 40%, scaled the team by 30%, and delivered the first unified ONE app platform.
+  Tenure: June 2022 – April 2024
+
+- image: /assets/images/companies/raketech.png
+  Company: Raketech
+  Designation: Head of Development & Strategic Projects
+  Description: Formed the development organisation and ran the strategic project portfolio with the COO. Led people, change and delivery through the company’s Agile transformation and IPO.
+  Tenure: Jan 2017 – May 2022
+
+- image: /assets/images/companies/tipico.png
+  Company: Tipico
+  Designation: Head of Software Development
+  Description: Built and led a multi-disciplinary software team covering frontend, backend, QA, automation and architecture. Owned complex delivery, budgets, resource allocation and the Agile transformation of the sportsbook platform.
+  Tenure: Apr 2013 – Jan 2017
+
+- image: /assets/images/companies/kpmg.png
+  Company: KPMG
+  Designation: Technical Architect
+  Description: Software architect on enterprise eCommerce programmes. Owned requirements, architecture, delivery and technical leadership, taking projects live on time, on budget and with high customer satisfaction. Clients included Avnet, GoPro, Pandora and Bugaboo.
+  Tenure: Aug 2004 – Apr 2013

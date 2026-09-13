@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1d1d35">
+    <meta name="author" content="Roderick Cassar">
+    <meta name="geo.region" content="MT">
+    <meta name="geo.placename" content="Malta">
+
+    {% seo %}
+    {% include seo-schema.html %}
+
+    <link rel="icon" href="{{'/favicon.ico' | relative_url}}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{'/assets/images/logo/logo-light.png' | relative_url}}">
+    <link rel="manifest" href="{{'/site.webmanifest' | relative_url}}">
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="dns-prefetch" href="https://widgets.sociablekit.com">
+
+    <link rel="stylesheet" href="{{'/assets/css/app.min.css' | relative_url}}">
+    <link rel="stylesheet" href="{{'/assets/css/enhancements.css' | relative_url}}">
+
+    {% feed_meta %}
+</head>
+
+<body>
+    <a class="skip-link" href="#home">Skip to content</a>
+    {% include header.html %}
+    {{content}}
+    {% include footer.html %}
+
+    <script src="{{'/assets/js/build.min.js' | relative_url}}"></script>
+    {% include cookie-consent.html %}
+</body>
+
+</html>

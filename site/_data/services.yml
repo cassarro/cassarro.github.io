@@ -1,0 +1,23 @@
+- name: Casino & Supplier Integrations
+  icon: fa-puzzle-piece
+  description: Design and run the path from supplier onboarding to live casino content — certification, configuration, aggregation and the operating model that keeps it moving across brands and markets.
+
+- name: Product Strategy
+  icon: fa-desktop
+  description: Help leadership teams set a product vision, choose the bets that matter, and translate market and competitive insight into a roadmap the business can actually deliver.
+
+- name: Engineering Leadership
+  icon: fa-code
+  description: Form, coach and scale product and engineering teams. Clear ownership, healthier delivery cadence, and a culture that can ship without burning people out.
+
+- name: Platform Architecture
+  icon: fa-compass
+  description: Review technical architecture for scale, security and cost. Practical recommendations for platforms that have to integrate many suppliers and still stay operable.
+
+- name: Data-Driven Product Decisions
+  icon: fa-chart-line
+  description: Put the right KPIs, analytics and decision loops in place so product choices are based on performance, not opinion.
+
+- name: Agile Transformation
+  icon: fa-clock
+  description: Help organisations move from process theatre to working Agile — training, operating rhythm, and the change management that makes it stick.

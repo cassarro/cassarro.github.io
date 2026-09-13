@@ -1,0 +1,12 @@
+- text: Home
+  url: /#home
+- text: Experience
+  url: /#experience
+- text: Skills
+  url: /#expertise
+- text: Services
+  url: /#services
+- text: Blog
+  url: /#news
+- text: Contact
+  url: /#contact
