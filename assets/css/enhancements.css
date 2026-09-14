@@ -1,0 +1,104 @@
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 2000;
+  padding: 0.5rem 0.9rem;
+  background: #28a745;
+  color: #fff;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+/* Keep above-the-fold copy visible even if AOS is slow or blocked */
+.banner-content [data-aos] {
+  opacity: 1;
+  transform: none;
+}
+
+.banner-role {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid rgba(40, 167, 69, 0.45);
+  border-radius: 999px;
+  color: #8ce0a4;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.banner-content p {
+  max-width: 40rem;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.team-box.current-role {
+  border: 1px solid rgba(40, 167, 69, 0.35);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.role-badge {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: #28a745;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.team-box img {
+  max-height: 72px;
+  width: auto;
+  object-fit: contain;
+}
+
+img[loading="lazy"] {
+  content-visibility: auto;
+}
+
+#cookie-notice {
+  z-index: 1500;
+}
+
+.interests-box h3,
+.team-box h3,
+.experience-progressbar h3,
+.contact-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.service-box h3,
+.blog-post-style h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.interests-box:hover h3 {
+  color: #28a745;
+}
+
+.experience-progressbar h3 {
+  margin-top: 0.75rem;
+}
+
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
+.page-title-content h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}

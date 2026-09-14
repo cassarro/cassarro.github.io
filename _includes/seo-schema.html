@@ -1,0 +1,75 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "Roderick Cassar",
+      "url": "{{ site.url }}/",
+      "image": "{{ site.url }}/assets/images/about/hero.jpg",
+      "jobTitle": "Casino Integrations — Product & Technology",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Entain",
+        "url": "https://www.entaingroup.com/"
+      },
+      "description": "{{ site.description | strip | escape }}",
+      "sameAs": [
+        "https://www.linkedin.com/in/rcassar",
+        "https://github.com/cassarro"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Malta"
+      },
+      "knowsAbout": [
+        "iGaming",
+        "Casino Integrations",
+        "Product Management",
+        "Product Development",
+        "Software Engineering",
+        "Agile Leadership",
+        "eCommerce"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Malta",
+        "addressCountry": "MT"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "Roderick Cassar",
+      "description": "{{ site.description | strip | escape }}",
+      "publisher": { "@id": "{{ site.url }}/#person" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ site.url }}/#profile",
+      "url": "{{ site.url }}/",
+      "name": "Roderick Cassar | Product & Technology Leader at Entain",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "about": { "@id": "{{ site.url }}/#person" },
+      "mainEntity": { "@id": "{{ site.url }}/#person" },
+      "inLanguage": "en"
+    }{% if page.layout == 'post' %},
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ site.url }}{{ page.url }}#article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
+      "image": "{{ site.url }}{{ page.post_image | default: site.defaults[0].values.image }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "author": { "@id": "{{ site.url }}/#person" },
+      "publisher": { "@id": "{{ site.url }}/#person" },
+      "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+      "inLanguage": "en"
+    }{% endif %}
+  ]
+}
+</script>

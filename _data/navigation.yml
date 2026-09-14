@@ -1,13 +1,11 @@
-#Please use the main menu items under the "text"
-
 - text: Home
   url: /#home
+- text: Experience
+  url: /#experience
 - text: Skills
   url: /#expertise
 - text: Services
   url: /#services
-- text: Certifications
-  url: /#skill
 - text: Blog
   url: /#news
 - text: Contact

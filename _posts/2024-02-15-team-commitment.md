@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Fueling Success with Collaborative Determination"
+description: "Why sprint commitment in Agile is a team sport — shared goals, honest forecasts and the discipline to finish what you start."
 date: 2024-02-15 07:17:14 +0200
 tags: [leadership, team, culture]
 categories: [leadership]
 author_name: "Roderick Cassar"
 post_image: "/assets/images/blog/commitment.png"
+image: /assets/images/blog/commitment.png
 post_id: 2
 ---
 

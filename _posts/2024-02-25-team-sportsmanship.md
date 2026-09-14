@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "The Synergy Between Sportsmanship and Team Dynamics"
+description: "What endurance sport teaches product teams about discipline, support and showing up for each other when it counts."
 date: 2024-02-25 07:17:14 +0200
 tags: [leadership, team, culture]
 categories: [leadership]
 author_name: "Roderick Cassar"
 post_image: "/assets/images/blog/sportsmanship.png"
+image: /assets/images/blog/sportsmanship.png
 post_id: 3
 ---
 

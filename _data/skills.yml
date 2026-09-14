@@ -1,35 +1,35 @@
-- name: Technical Proficiency
-  icon: /assets/images/icons/001-software-engineering.png
-
-- name: Strategic Leadership
-  icon: /assets/images/icons/002-leadership.png
-
-- name: Product Development
-  icon: /assets/images/icons/003-product.png
-
-- name: Agile and Adaptive
-  icon: /assets/images/icons/004-agile.png
-
-- name: Innovative and Creative
-  icon: /assets/images/icons/005-innovation.png
-
-- name: E-commerce experience
-  icon: /assets/images/icons/006-ecommerce.png
-
-- name: IGaming experience
+- name: Casino Integrations
   icon: /assets/images/icons/007-igaming.png
 
-- name: Results Driven & Revenue Growth
+- name: Product Leadership
+  icon: /assets/images/icons/003-product.png
+
+- name: Technical Leadership
+  icon: /assets/images/icons/001-software-engineering.png
+
+- name: Agile Delivery
+  icon: /assets/images/icons/004-agile.png
+
+- name: Platform Architecture
+  icon: /assets/images/icons/005-innovation.png
+
+- name: iGaming
   icon: /assets/images/icons/008-results.png
+
+- name: eCommerce
+  icon: /assets/images/icons/006-ecommerce.png
+
+- name: Regulated Markets
+  icon: /assets/images/icons/002-leadership.png
 
 - name: User-Centric Design
   icon: /assets/images/icons/009-design.png
 
-- name: Team Player & Management
+- name: Team Building
   icon: /assets/images/icons/010-team.png
 
-- name: Data-Driven Decision Making & Problem-Solving 
+- name: Data-Driven Decisions
   icon: /assets/images/icons/011-data-driven.png
 
-- name: Financial Acumen
+- name: Commercial Delivery
   icon: /assets/images/icons/012-financial-acumen.png

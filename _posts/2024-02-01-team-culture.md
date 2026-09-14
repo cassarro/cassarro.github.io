@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Unleashing the Spartan Spirit: Forging a Resilient Team Culture"
+description: "How a shared identity and a never-give-up cadence help product teams stay resilient when delivery gets hard."
 date: 2024-02-01 20:37:13 +0200
 tags: [leadership, team, culture]
 categories: [leadership]
 author_name: "Roderick Cassar"
 post_image: "/assets/images/blog/spartan.png"
+image: /assets/images/blog/spartan.png
 post_id: 1
 ---
 

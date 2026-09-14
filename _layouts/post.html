@@ -10,7 +10,7 @@ layout: default
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="page-title-content text-center">
-                    <h3 class="text-light"> {{page.title}}</h3>
+                    <h1 class="text-light"> {{page.title}}</h1>
                     <nav class="mt-5">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="{{'/'}}">Home</a></li>
@@ -44,21 +44,21 @@ layout: default
                     <ul class="social-share list-inline m-0">
                         <li class="list-inline-item">Share:</li>
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ posts.url }}"
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"
                                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                                 title="Share on Facebook">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com/intent/tweet?text={{ posts.title }}&url={{ site.url }}{{ site.baseurl }}{{ posts.url }}"
+                            <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url }}"
                                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                                 title="Share on Twitter">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="http://pinterest.com/pin/create/button/?url=&media={{ site.url }}{{posts.post_image }}&description="
+                            <a href="https://www.pinterest.com/pin/create/button/?url={{ page.url | absolute_url }}&media={{ site.url }}{{ page.post_image }}&description={{ page.title | uri_escape }}"
                                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
                                 title="Share on Pinterest">
                                 <i class="fab fa-pinterest-p"></i>
@@ -95,7 +95,7 @@ layout: default
                             <div class="border-top"></div>
 
                             <ul class="post-meta list-inline">
-                                <li class="list-inline-item"><a href="{{page.url}}" class="readmore">Read More<i
+                                <li class="list-inline-item"><a href="{{post.url}}" class="readmore">Read More<i
                                             class="fas fa-chevron-right"></i></a></li>
                                 <li class="list-inline-item"><i class="far fa-calendar"></i>{{post.date |
                                     date:"%Y-%m-%d"}}</li>

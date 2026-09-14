@@ -1,9 +1,9 @@
 <!--====== Header Area Start ======-->
 <header class="header-area">
-    <nav class="header-navbar navbar navbar-expand-lg fixed-top">
+    <nav class="header-navbar navbar navbar-expand-lg fixed-top" aria-label="Primary">
       <div class="container">
-        <a class="navbar-brand" href="{{site.url}}"><img src="{{'/assets/images/logo/logo-light.png' | relative_url}}" height="15" alt="title"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarself">
+        <a class="navbar-brand" href="{{site.url}}/"><img src="{{'/assets/images/logo/logo-light.png' | relative_url}}" height="15" width="64" alt="Roderick Cassar"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarself" aria-controls="navbarself" aria-expanded="false" aria-label="Toggle navigation">
           <span></span>
           <span></span>
           <span></span>
@@ -11,10 +11,9 @@
         <div class="collapse navbar-collapse" id="navbarself">
           {% include navigation.html %}
           <ul class="list-inline m-0 header-social-list">
-            <li class="list-inline-item"><a href="{{'https://www.linkedin.com/in/rcassar' | relative_url }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/rcassar" target="_blank" rel="noopener noreferrer" aria-label="Roderick Cassar on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
           </ul>
         </div>
-    
       </div>
     </nav>
   </header>

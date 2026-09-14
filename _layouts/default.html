@@ -2,44 +2,37 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-23S9VSHWVC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-23S9VSHWVC');
-    </script>
-    
-    <!-- meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1d1d35">
+    <meta name="author" content="Roderick Cassar">
+    <meta name="geo.region" content="MT">
+    <meta name="geo.placename" content="Malta">
 
     {% seo %}
+    {% include seo-schema.html %}
 
-    <!--  Add Favicon -->
-    <link rel="icon" href="{{'/favicon.ico' | relative_url}}" type="image/x-icon" />
+    <link rel="icon" href="{{'/favicon.ico' | relative_url}}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{'/assets/images/logo/logo-light.png' | relative_url}}">
+    <link rel="manifest" href="{{'/site.webmanifest' | relative_url}}">
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="dns-prefetch" href="https://widgets.sociablekit.com">
 
-    <!-- gulp:css -->
     <link rel="stylesheet" href="{{'/assets/css/app.min.css' | relative_url}}">
-    <!-- endgulp -->
-    
-    {% feed_meta %}
+    <link rel="stylesheet" href="{{'/assets/css/enhancements.css' | relative_url}}">
 
+    {% feed_meta %}
 </head>
 
 <body>
+    <a class="skip-link" href="#home">Skip to content</a>
     {% include header.html %}
     {{content}}
     {% include footer.html %}
 
-    <!--=========== JS Add ==========-->
-    <!-- gulp:js -->
     <script src="{{'/assets/js/build.min.js' | relative_url}}"></script>
-    <!-- endgulp -->
-
     {% include cookie-consent.html %}
 </body>
 

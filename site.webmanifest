@@ -1,0 +1,16 @@
+{
+  "name": "Roderick Cassar",
+  "short_name": "Roderick Cassar",
+  "description": "Product and technology leader at Entain, leading Global Casino Integrations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1d1d35",
+  "theme_color": "#1d1d35",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

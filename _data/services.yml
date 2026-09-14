@@ -1,22 +1,23 @@
-- name: Product Strategy Consulting
+- name: Casino & Supplier Integrations
+  icon: fa-puzzle-piece
+  description: Design and run the path from supplier onboarding to live casino content — certification, configuration, aggregation and the operating model that keeps it moving across brands and markets.
+
+- name: Product Strategy
   icon: fa-desktop
-  description: Assist companies in defining and refining their product strategy to align with business objectives. Offer insights into market trends, competitive landscapes, and potential opportunities.
+  description: Help leadership teams set a product vision, choose the bets that matter, and translate market and competitive insight into a roadmap the business can actually deliver.
 
-- name: Team Leadership and Development
+- name: Engineering Leadership
   icon: fa-code
-  description: Provide leadership training and guidance to product development and engineering teams. Implement strategies to enhance team collaboration, productivity, and innovation.
+  description: Form, coach and scale product and engineering teams. Clear ownership, healthier delivery cadence, and a culture that can ship without burning people out.
 
-- name: Innovation Workshops
-  icon: fa-lightbulb
-  description: Conduct workshops to stimulate and capture innovative ideas within a team or organisation. Facilitate brain storming sessions focused on fostering a culture of creativity and continuous improvement.
-
-- name: Technical Architecture Review
+- name: Platform Architecture
   icon: fa-compass
-  description: Conduct technical architecture reviews to ensure scalability, security, and efficiency of software systems. Offer recommendations for optimising technical infrastructures.
+  description: Review technical architecture for scale, security and cost. Practical recommendations for platforms that have to integrate many suppliers and still stay operable.
 
-- name: Data-Driven Decision Making
+- name: Data-Driven Product Decisions
   icon: fa-chart-line
-  description: Consult on data analytics frameworks to support product decisions and measure performance. Advise on KPIs and metrics relevant to product success.
+  description: Put the right KPIs, analytics and decision loops in place so product choices are based on performance, not opinion.
+
 - name: Agile Transformation
   icon: fa-clock
-  description: Assist companies in adopting agile methodologies for more efficient and adaptive product development. Facilitate agile training sessions and guide teams through the agile transformation process.
+  description: Help organisations move from process theatre to working Agile — training, operating rhythm, and the change management that makes it stick.
