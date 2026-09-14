@@ -1,16 +1,34 @@
-<!--  ======== Testimonial Area ========  -->
 <section class="testimonial-area pt-10" id="testimonials">
     <div class="container">
         <div class="row">
             <div class="col-md-8 m-auto">
                 <div class="section-title text-center mb-2">
                     <h2 class="mb-5">Testimonials</h2>
-                    <p>What colleagues have said about working together.</p>
+                    <p>Recommendations from people I have worked with, published on LinkedIn.</p>
                 </div>
             </div>
         </div>
-        <div class="sk-ww-linkedin-recommendations" data-embed-id="25558756"></div>
-        <script src="https://widgets.sociablekit.com/linkedin-recommendations/widget.js" defer></script>
+        <div class="row justify-content-center">
+            {% for item in site.data.testimonials %}
+            <div class="col-lg-6">
+                <figure class="quote-card">
+                    <blockquote>
+                        <p>{{ item.quote }}</p>
+                    </blockquote>
+                    <figcaption>
+                        <span class="quote-avatar" aria-hidden="true">{{ item.initials }}</span>
+                        <span>
+                            <strong>{{ item.name }}</strong>
+                            <span class="quote-role">{{ item.role }}</span>
+                            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">LinkedIn recommendation</a>
+                        </span>
+                    </figcaption>
+                </figure>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="testimonial-more text-center">
+            <a href="https://www.linkedin.com/in/rcassar" target="_blank" rel="noopener noreferrer">See more recommendations on LinkedIn</a>
+        </p>
     </div>
 </section>
-<!--  ======== Testimonial Area End =========  -->
