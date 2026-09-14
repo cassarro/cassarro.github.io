@@ -81,6 +81,53 @@ h1, h2, h3, .display-4 {
   color: var(--muted);
 }
 
+.experience-grid.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.experience-grid > [class*="col-"] {
+  display: flex;
+}
+
+.experience-grid .team-box {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.experience-grid .team-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  margin: 0 auto 1rem;
+}
+
+.experience-grid .role-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.7rem;
+  margin-bottom: 0.35rem;
+}
+
+.experience-grid .job-title {
+  min-height: 2.8em;
+}
+
+.experience-grid .job-copy {
+  flex: 1 1 auto;
+  margin-bottom: 1.25rem;
+}
+
+.experience-grid .job-tenure {
+  margin-top: auto;
+}
+
 .team-box.current-role {
   border: 1px solid rgba(61, 214, 140, 0.35);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
@@ -88,7 +135,7 @@ h1, h2, h3, .display-4 {
 
 .role-badge {
   display: inline-block;
-  margin-bottom: 0.6rem;
+  margin: 0;
   padding: 0.2rem 0.65rem;
   border-radius: 999px;
   background: var(--accent);

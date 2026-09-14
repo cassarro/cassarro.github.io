@@ -9,20 +9,22 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row experience-grid">
             {% for employment in site.data.employements %}
             <div class="col-lg-6 col-md-6">
                 <div class="team-box text-center{% if employment.current %} current-role{% endif %}">
                     <div class="team-image">
                         <img src="{{employment.image}}" width="180" height="72" loading="lazy" alt="{{employment.Company}} logo">
                     </div>
-                    {% if employment.current %}
-                    <span class="role-badge">Current role</span>
-                    {% endif %}
+                    <div class="role-slot">
+                        {% if employment.current %}
+                        <span class="role-badge">Current role</span>
+                        {% endif %}
+                    </div>
                     <p class="m-0 small pt-1 pb-2"><strong>{{employment.Company}}</strong></p>
-                    <h3 class="m-0">{{employment.Designation}}</h3>
-                    <p class="mb-5">{{employment.Description}}</p>
-                    <span><i>{{employment.Tenure}}</i></span>
+                    <h3 class="m-0 job-title">{{employment.Designation}}</h3>
+                    <p class="job-copy">{{employment.Description}}</p>
+                    <span class="job-tenure"><i>{{employment.Tenure}}</i></span>
                 </div>
             </div>
             {% endfor %}
